@@ -1,0 +1,19 @@
+.coluna {
+    display: flex;
+    background: lightgray;
+    gap: 1rem;
+}
+
+aside, main {
+    height: 90vh;
+}
+
+aside {
+    border: 1px solid;
+    flex-basis: 25%;
+}
+
+main {
+    border: 1px solid;
+    flex: 1;
+}
